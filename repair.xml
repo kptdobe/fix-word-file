@@ -1,0 +1,28 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <RequestVersion
+        Version="2"
+        MinorVersion="2"
+        xmlns="http://schemas.microsoft.com/sharepoint/soap/"/>
+    <RequestCollection
+        CorrelationId="{FFB17752-EEA0-374B-89AB-7113BD8D7ED7}"
+        xmlns="http://schemas.microsoft.com/sharepoint/soap/">
+      <Request
+          Url="${url}"
+          UseResourceID="true"
+          UserAgent="{1984108C-4B93-4EEB-B320-919432D6E593}"
+          UserAgentClient="msword"
+          UserAgentPlatform="osx"
+          Build="16.0.1211.0"
+          MetaData="1031"
+          RequestToken="1"
+          ClientIsMipTrusted="true">
+        <SubRequest
+            Type="Cell"
+            SubRequestToken="11">
+          <SubRequestData BinaryDataSize="27">DgALAJzPKfM5lAabBgIAABYCBgADAwALAQMB</SubRequestData>
+        </SubRequest>
+      </Request>
+    </RequestCollection>
+  </s:Body>
+</s:Envelope>
